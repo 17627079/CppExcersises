@@ -1,0 +1,43 @@
+#include <iostream>
+
+using namespace std;
+
+
+int searchArray(int array[], int size, int element)
+{
+    bool found = false;
+
+    for (int i = 0; i < size; i++)
+    {
+        if (array[i] == element)
+        {
+            found = true;
+            cout << "found at index " << i <<endl;
+            break;
+        }
+    }
+
+    if (!found)
+    {
+            cout << "Not found" << endl;
+    }
+
+}
+
+int main()
+{
+
+    int arrNumbers[] = {1,2,3};
+    int size = sizeof(arrNumbers)/sizeof(int);
+    int num;
+
+    cout << "enter element"<<endl;
+    cin >> num;
+
+    searchArray(arrNumbers, size, num);
+
+
+
+
+    return 0;
+}
