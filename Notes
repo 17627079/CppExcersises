@@ -1,0 +1,14 @@
+x % 2 == 0 ? std::cout << "even\n" : std::cout << "odd\n";
+jane — Today at 3:59 PM
+::x scope resolution op for global precedence
+jane — Today at 4:15 PM
+sizeof(array)/sizeof(datatype) = num elements of datatype array
+alt : sizeof(array)/sizeof(array[x]); 
+jane — Today at 7:18 PM
+double array[] = {1, 2, 3};
+
+double sum(double arr[], int sizeof);
+
+sum(array, sizeof)
+
+cant compute sizeof(datatype/datatype) since array passed as pointer : explicit parameter required 
