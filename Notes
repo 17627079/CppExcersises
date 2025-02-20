@@ -12,3 +12,5 @@ double sum(double arr[], int sizeof);
 sum(array, sizeof)
 
 cant compute sizeof(datatype/datatype) since array passed as pointer : explicit parameter required 
+
+int arrMult[][] = {{x,y,z}}
